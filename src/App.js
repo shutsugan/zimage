@@ -6,6 +6,10 @@ import ImageZoom from './module/ImageZoom';
 import './App.css';
 
 class App extends Component {
+  componentDidMount() {
+    new ImageZoom();
+  }
+
   render() {
     return (
       <main className="App">

@@ -6,7 +6,7 @@ class Image extends Component {
 	render() {
 		return(
 			<div className="Image">
-				<img className="Image__target" src={this.props.image} />
+				<img className="Image__target" src={this.props.image} alt="The component to be zoomed from" />
 				<p className="Image__text">Move the cursor over the image, then click and hold to see the zoom</p>
 			</div>
 		); 
