@@ -1,0 +1,17 @@
+.Image {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.Image__target {
+	width: 100%;
+	max-width: 640px;
+	cursor: zoom-in;
+}
+
+.Image__text {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AAA;
+    font-size: 1.1em;
+}

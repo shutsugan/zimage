@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import Image from './components/Image';
+import Zoom from './components/Zoom';
+import ImageZoom from './module/ImageZoom';
+
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        
-      </div>
+      <main className="App">
+        <Image image="demo.jpg"/>
+        <Zoom />
+      </main>
     );
   }
 }

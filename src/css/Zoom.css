@@ -1,0 +1,14 @@
+.Zoom {
+	width: 1px;
+	height: 1px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	pointer-events: none,
+}
+
+.Zoom__canvas {
+	position: absolute;
+	left: -64px;
+	top: -134px;
+}
