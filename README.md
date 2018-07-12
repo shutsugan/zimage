@@ -20,7 +20,7 @@ to build the app for production run:
     
 ### App screenshot
 
-![PWA lighthouse audit](https://github.com/shutsugan/zimage/blob/master/exp.png)
+![zimage screenshot](https://github.com/shutsugan/zimage/blob/master/exp.png)
     
 ### Front-end
 
